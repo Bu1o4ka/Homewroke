@@ -40,6 +40,10 @@ namespace Homewroke
                     {
                         shelfA.Items[slotNumb-1] = itemName;
                     }
+                    else
+                    {
+                        shelfB.Items[slotNumb - 1] = itemName;
+                    }
                     placedJournal.Add(new PlacedEvent(itemName, slotNumb, shelf));
                 }
             }
