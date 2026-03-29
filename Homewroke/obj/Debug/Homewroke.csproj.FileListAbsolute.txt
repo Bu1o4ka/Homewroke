@@ -5,4 +5,3 @@ C:\Users\bulat\Source\Repos\Homewroke\Homewroke\obj\Debug\Homewroke.csproj.Assem
 C:\Users\bulat\Source\Repos\Homewroke\Homewroke\obj\Debug\Homewroke.csproj.CoreCompileInputs.cache
 C:\Users\bulat\Source\Repos\Homewroke\Homewroke\obj\Debug\Homewroke.exe
 C:\Users\bulat\Source\Repos\Homewroke\Homewroke\obj\Debug\Homewroke.pdb
-C:\Users\bulat\Source\Repos\Homewroke\Homewroke\obj\Debug\Homewroke.exe.config

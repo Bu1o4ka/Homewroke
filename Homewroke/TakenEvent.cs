@@ -15,7 +15,7 @@ namespace Homewroke
 
         public string ToScreenLine()
         {
-            return $"Предмет {itemName} забрали с полки {shelf} из слота {slotNumb}";
+            return $"Предмет [{itemName}] забрали с полки [{shelf}] из слота [{slotNumb}]";
         }
 
         private char shelf;
@@ -35,7 +35,7 @@ namespace Homewroke
             get { return itemName; }
         }
 
-        public TakenEvent(char shelf, int slotNumb, string itemName) 
+        public TakenEvent(string itemName, int slotNumb, char shelf) 
         { 
             this.shelf = shelf;
             this.slotNumb = slotNumb;

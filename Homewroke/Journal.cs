@@ -19,13 +19,14 @@ namespace Homewroke
             get { return notices; }
         }
 
-        public void Show()
+        public void SaveToFile(string path)
         {
-            foreach (var notice in Notices)
+            string logs = "";
+            foreach (var item in Notices)
             {
-                Console.Write(notice);
+                logs += item.ToLogLine() + '\n';
             }
-            Console.Write("\n");
+            FileHelper.WriteFile(path, logs.Trim());
         }
     }
 }

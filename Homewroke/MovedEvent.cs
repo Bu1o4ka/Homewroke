@@ -15,7 +15,7 @@ namespace Homewroke
 
         public string ToScreenLine()
         {
-            return $"Предмет {itemName} переложили с полки {shelfOut} из слота {slotNumbOut} на полку {shelfIn} в слот {slotNumbIn}";
+            return $"Предмет [{itemName}] переложили с полки [{shelfOut}] из слота [{slotNumbOut}] на полку [{shelfIn}] в слот [{slotNumbIn}]";
         }
 
         private char shelfOut;
@@ -30,7 +30,7 @@ namespace Homewroke
         public int SlotNumbIn {  get { return slotNumbIn; } }
         public string ItemName { get { return itemName; } }
 
-        public MovedEvent( char shelfOut, char shelfIn, int slotNumbOut, int slotNumbIn, string itemName)
+        public MovedEvent(string itemName, char shelfOut, int slotNumbOut, char shelfIn, int slotNumbIn)
         {
             this.shelfOut = shelfOut;
             this.shelfIn = shelfIn;
