@@ -36,6 +36,10 @@ namespace Homewroke
                     string itemName = elements[0];
                     int slotNumb = int.Parse(elements[1]);
                     char shelf = char.Parse(elements[2]);
+                    if (shelf == 'A')
+                    {
+                        shelfA.Items[slotNumb-1] = itemName;
+                    }
                     placedJournal.Add(new PlacedEvent(itemName, slotNumb, shelf));
                 }
             }
