@@ -8,8 +8,7 @@ namespace Homewroke
 {
     internal class Shelf
     {
-        private int s;
-        private List<string> items = new List<string>(10);
+        private List<string> items = new List<string>(10) { "    ", "    ", "    ", "    ", "    ", "    ", "    ", "    ", "    ", "    " };
 
         public List<string> Items
         {
@@ -19,21 +18,22 @@ namespace Homewroke
 
         public Shelf()
         {
-        }
-
-        public void Put(int n, )
-        {
 
         }
 
-        public void Take()
+        public void Place(int slotNumb, string itemName)
         {
-
+            items[slotNumb-1] = itemName;
         }
 
-        public void Read()
+        public void Take(int slotNumb)
         {
+            items[slotNumb-1] = "    ";
+        }
 
+        public string Read(int slotNumb)
+        {
+            return items[slotNumb - 1];
         }
     }
 }

@@ -1,0 +1,8 @@
+C:\Users\bulat\Source\Repos\Homewroke\Homewroke\bin\Debug\Homewroke.exe.config
+C:\Users\bulat\Source\Repos\Homewroke\Homewroke\bin\Debug\Homewroke.exe
+C:\Users\bulat\Source\Repos\Homewroke\Homewroke\bin\Debug\Homewroke.pdb
+C:\Users\bulat\Source\Repos\Homewroke\Homewroke\obj\Debug\Homewroke.csproj.AssemblyReference.cache
+C:\Users\bulat\Source\Repos\Homewroke\Homewroke\obj\Debug\Homewroke.csproj.CoreCompileInputs.cache
+C:\Users\bulat\Source\Repos\Homewroke\Homewroke\obj\Debug\Homewroke.exe
+C:\Users\bulat\Source\Repos\Homewroke\Homewroke\obj\Debug\Homewroke.pdb
+C:\Users\bulat\Source\Repos\Homewroke\Homewroke\obj\Debug\Homewroke.exe.config
